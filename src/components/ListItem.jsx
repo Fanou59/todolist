@@ -1,3 +1,3 @@
-export const ListItem = ({ id, children }) => {
-  return <li key={id}>{children}</li>;
+export const ListItem = ({ children, className }) => {
+  return <li className={className}>{children}</li>;
 };
